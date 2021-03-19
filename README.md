@@ -1,4 +1,4 @@
-In this example I have used H2 as in memory database and rest web services are exposed via Swagger-UI. Project can be executed as follows:
+In this example I have used H2 as in memory database and rest web services are exposed Postman . Project can be executed as follows:
 
 mvn clean
 mvn install
@@ -10,7 +10,7 @@ DB
 Access localhost:202/h2-console with schema jdbc:h2:mem:testdb connect and see tables data.
 Services
 
-Department
+Movies
 
 GET http://localhost:2021/api/movies
 GET http://localhost:2021/api/movies/watched
